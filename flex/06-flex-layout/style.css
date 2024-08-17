@@ -24,3 +24,16 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.titleContainer {
+  text-align: center;
+  align-self: center;
+  justify-content: space-around;
+}
+
+
+.title {
+  display: flex;
+
+  text-align: center;
+}

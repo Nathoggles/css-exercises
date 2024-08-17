@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.plantsContainer {
+  display: flex;
+  align-content: center;
+  gap: 52px;
+}
+
+.plantsPlusText{
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 200px;
+}
