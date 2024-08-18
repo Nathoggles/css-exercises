@@ -5,6 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -16,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 1%;
 }
 
 input {
@@ -36,4 +42,26 @@ input {
   display: flex;
 
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  margin-bottom: auto;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
 }
