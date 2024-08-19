@@ -38,6 +38,19 @@ input {
 }
 
 
+.containerInputButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.buttons {
+  display: flex;
+
+}*/
+
 .title {
   display: flex;
 
