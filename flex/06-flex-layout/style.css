@@ -70,6 +70,7 @@ ul {
 a {
   color: grey;
   text-decoration: none;
+  font-size: smaller;
 }
 
 .header {
@@ -82,10 +83,19 @@ a {
   display: flex;
   margin-top: auto;
   width: 100%;
+  background-color: #eeeeee;
+  height: 5%;
 }
 
 .left-links {
 margin-right: auto;
+margin-top: 1%;
+margin-bottom: 1%;
+gap: 10%;
+}
 
-border: 5px red solid;
+.right-links {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  gap: 10%;
 }
